@@ -1,0 +1,114 @@
+body{
+    font-family: Arvo, serif;
+    background: url(images/cube_shape_colored_glass_surface_38190_1920x1200.jpg) center center no-repeat;
+    background-attachment: fixed;
+/*//centring horizontal and vertical*/
+/*    
+        url(https://images.pexels.com/photos/271462/nature-autumn-fall-foliage-271462.jpeg?cs=srgb&dl=autumn-autumn-leaves-branch-bright-271462.jpg&fm=jpg) ;
+    
+*/
+    background-size: cover;
+    
+}
+
+/*Style brand*/
+.logo{
+   height: 30px;
+}
+/*Style navgation bar*/
+
+.navbar-inverse{
+    background: rgba(0,0,0,0.3);
+}
+
+.nav li{
+    color: white;
+    font-size: 20px;
+    margin-right: 30px;
+    padding: 10px 0;
+}
+/*Adding botton border to nav elements*/
+
+.nav li:hover{
+    border-bottom: 3px solid blue;
+    padding-bottom: 9px;
+/*    //1px increse during mouse-hover on elements*/
+    cursor: pointer;
+}
+/*Style jumbotron*/
+.jumbotron{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin: 0 ;
+    padding: 10px;
+    letter-spacing: 2.5px;
+}
+
+/*Style icons section using bootstrap grid system*/
+.bodyimage{
+    height:100px;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.col-md-3{
+    text-align: center;
+    color:white;
+    font-size: 18px;
+}
+
+.items p{
+    font-size: 15px;
+}
+/*limit the width of the icon sections*/
+.container{
+    max-width: 1000px;
+}
+
+/*Style contact button*/
+.contact{
+    text-align: center;;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.btn{
+    background-color: darkviolet;
+    color:white;
+    border:none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding:5px 70px;
+    letter-spacing: 1.3px;    
+    
+}
+.btn:hover{
+    background-color: red;
+    color: white;
+    border: none;
+}
+/*Style footer*/
+.footer{
+    background-color: rgba(0,0,0,0.5);
+    color:yellow;
+    font-size: 15px;
+    padding:10px 0;
+}
+
+/*use meadia queries to change icons in small devices*/
+@media(max-width:760px){
+    .bodyimage{
+        height:70px;
+    }
+}
+
+/*Styling body by background image and set it to cover and add font family*/
+/*Style brand*/
+/*Style navgation bar*/
+/*Style jumbotron*/
+/*limit the width of the icon sections*/
+/*Style icons section using bootstrap grid system*/
+/*Style contact button*/
+/*Style footer*/
+/*use meadia queries to change icons in small devices*/
+
